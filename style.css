@@ -2,8 +2,73 @@ header h1{
     text-align: center;
     font-size: 80px;
     background-color: white;
-    border: 2 px dashed black;
-    border-radius: 15%;
-    margin: 20px;
+    border: 2px dashed black;
+    border-radius: 50PX;
+    margin: 30px;
     padding: 20px;
+   
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(77, 166, 255);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+    background-image: url(gyogynovenyek/kepek/fohatter.png);
+    background-color:rgba(77, 166, 255,0.5) ;
+   
+
+}
+nav a{
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    gap: 20px;
+    
+    
+}
+
+body{
+    max-width: 800px;
+    width: 80%;
+    margin: auto;
+    background-image:url(gyogynovenyek/kepek/fohatter.png) ;
+    background-color: antiquewhite;
+    background-size: cover;
+
+}
+article{
+    max-width: 800px;
+    max-width: 97%;
+    gap: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+section{
+    
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 15px
+    
+
+
+}
+img{
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+h2{
+    text-align: center;
+}
+#Gyömbér{
+    background-color: rgba(255, 255, 0, 0.5 );
 }
